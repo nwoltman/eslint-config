@@ -1,0 +1,10 @@
+# Node.js files/folders
+node_modules
+package-lock.json
+
+# IDE / Text Editor files
+*.sublime-*
+
+# Misc
+*.log
+.DS_Store
