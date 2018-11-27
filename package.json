@@ -1,9 +1,11 @@
 {
   "name": "@nwoltman/eslint-config",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "My personal, highly specific ESLint config",
   "main": "index.js",
-  "files": ["index.js"],
+  "files": [
+    "index.js"
+  ],
   "author": "Nathan Woltman <nwoltman@outlook.com>",
   "license": "MIT",
   "homepage": "https://github.com/nwoltman/eslint-config",
