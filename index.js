@@ -143,6 +143,7 @@ module.exports = {
     'no-unused-vars': [2, {ignoreRestSiblings: true}],
     'no-use-before-define': [2, {functions: false}],
     'no-useless-call': 2,
+    'no-useless-catch': 2,
     'no-useless-computed-key': 2,
     'no-useless-concat': 2,
     'no-useless-escape': 2,
