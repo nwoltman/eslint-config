@@ -43,7 +43,11 @@ module.exports = {
     'func-call-spacing': 2,
     'func-style': [2, 'declaration', {allowArrowFunctions: true}],
     'function-paren-newline': [2, 'consistent'], // Would prefer "multiline", but it doesn't allow 1 argument
-    'generator-star-spacing': 2,
+    'generator-star-spacing': [2, {
+      before: false,
+      after: true,
+      method: {before: true, after: false},
+    }],
     'getter-return': 2,
     'handle-callback-err': [2, '^(?:err(?:or)?)$'],
     'id-blacklist': [2, 'data'],
