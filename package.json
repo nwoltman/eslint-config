@@ -2,33 +2,27 @@
   "name": "@nwoltman/eslint-config",
   "version": "0.2.1",
   "description": "My personal, highly specific ESLint config",
-  "main": "index.js",
+  "main": "config.json",
   "files": [
-    "index.js"
+    "config.json"
   ],
   "author": "Nathan Woltman <nwoltman@outlook.com>",
   "license": "MIT",
   "homepage": "https://github.com/nwoltman/eslint-config",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/nwoltman/eslint-config.git"
-  },
-  "bugs": {
-    "url": "https://github.com/nwoltman/eslint-config/issues"
-  },
+  "repository": "github:nwoltman/eslint-config",
+  "bugs": "https://github.com/nwoltman/eslint-config/issues",
   "keywords": [
     "eslint",
     "config",
     "eslintconfig"
   ],
   "peerDependencies": {
-    "eslint": ">=5.11.0"
+    "eslint": ">=6.4.0"
   },
   "devDependencies": {
-    "eslint": "^5.11.0"
+    "eslint": "^6.4.0"
   },
   "scripts": {
-    "lint": "eslint .",
-    "test": "eslint . && node index.js"
+    "test": "eslint test"
   }
 }
