@@ -40,7 +40,7 @@
     "for-direction": 2,
     "func-call-spacing": 2,
     "func-style": [2, "declaration", {"allowArrowFunctions": true}],
-    "function-call-argument-newline": [2, "consistent"],
+    // "function-call-argument-newline": [2, "consistent"],
     "function-paren-newline": [2, "multiline-arguments"],
     "generator-star-spacing": [2, {
       "before": false,
