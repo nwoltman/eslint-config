@@ -1,6 +1,6 @@
 {
   "name": "@nwoltman/eslint-config",
-  "version": "0.5.2",
+  "version": "0.6.0",
   "description": "My personal, highly specific ESLint config",
   "main": "config.json",
   "files": [
